@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Add our new application 
     'catalog.apps.CatalogConfig', #This object was created for us in /catalog/apps.py
+    # Add django-tables2
+    'django_tables2',
+    'tutorial',
 ]
 
 MIDDLEWARE = [

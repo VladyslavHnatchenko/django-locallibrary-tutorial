@@ -58,3 +58,7 @@ urlpatterns += [
 urlpatterns += [
     path('accounts/', include('django.contrib.auth.urls')),
 ]
+
+urlpatterns += [
+    path('tutorial/', include('tutorial.urls')),
+]
